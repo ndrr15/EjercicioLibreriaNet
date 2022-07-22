@@ -2,8 +2,12 @@
 
 namespace Prueba1
 {
-    public class Class1
+    public class Saludo
     {
+        public string Saludar(string nombre)
+        {
+            return $"Hola {nombre}";
+        }
     }
 }
 
